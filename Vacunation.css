@@ -1,0 +1,271 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.HoaxBuster{
+        align-items: center;
+        appearance: button;
+        background-color: #0276FF;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        font-family: "RM Neue",sans-serif;
+        font-size: 100%;
+        line-height: 1.15;
+        margin-top: 11px;
+        padding: 10px 21px;
+        text-align: center;
+        text-transform: none;
+        transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+button {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  background-color: #006AE8;
+}
+
+button:hover {
+  background-color: #1C84FF;
+}
+
+/*color: #0351F8;*/
+
+.menu {
+    /*padding-left: 0.5rem;*/
+    margin-left: 100px;
+}
+.menu h2{
+    color: #0351F8;
+    /*text-align: center;*/
+    font-size: 30px;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+nav ul{
+    margin-right: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    /*margin-left: 30px;*/
+    float: left; /*acomodar la lista en fila*/
+    margin-left: 70px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+}
+
+/*SECTION 1*/
+.fightVirus{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.optionVaccines .bestProtection{
+    margin-right: 100px; /*Se puede borrar la linea */
+    margin-left: 100px;
+    margin-top: 0px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+}
+.optionVaccines h1{
+    margin-bottom: 0rem;
+    justify-content:start;
+    font-size: 60px;
+    padding-right: 150px;
+    width: 380px;
+}
+.optionVaccines p{
+    width: 315px;
+    font-size: 18px
+}
+.optionVaccines .twoOptions{
+    margin-left:50px ;
+}
+.optionVaccines .twoOptions li{
+    /*list-style: none;*/
+    float: left;
+    margin-left: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+    /*fightLeftButtom*/
+.fightLeftBottom{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.schedule{
+    background-color: antiquewhite;
+}
+.spacer{
+    background-image: url("https://saluddigital.com/wp-content/uploads/2021/05/Application-of-Vaccines-in-the-World.png");
+    background-repeat: repeat-x;
+    background-size: 500px;
+}
+.scheduleTwo{
+    list-style: none;
+
+}
+.schedule ul li{
+    margin-left: 50px;
+    float: left;
+}
+    /*nurse*/
+.nurse img{
+    width: 650px;
+    height: 650px;
+    /*float: left;*/
+    margin-right: 0;
+    margin-left: 0px;
+    padding-left: 0.5rem;
+    
+}
+/*Section 2 whyVaccine*/
+.whyVaccine{
+    margin-left: 100px;
+    width: 440px;
+}
+.whyVaccine h2{
+    font-size: 35px;
+    color: #0e317c;
+}
+.whyVaccine p{
+    font-size: 18px;
+}
+/*Section 3 reasons*/
+.reasons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.reasons p{
+    width: 200px;
+}
+.reasons .headers{
+    font-weight: bold;
+    font-size: 20px;
+}
+.material-icons-outlined{
+    color: #0351F8;
+    
+}
+/*Section 4 preparations*/
+.preparations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.indications{
+    margin-right:250px;
+}
+.indications h2{
+    margin-top: 0px;
+    font-size: 35px;
+    color: #0e317c;
+}
+.indications p{
+    width: 350px;
+}
+.indications ul li{
+    padding-top: 15px;
+}
+
+/*section 5 contact*/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.headerContact{
+    margin-left: 100px;
+    margin-top: 100px;   
+    width: 500px; 
+}
+.headerContact h2{
+    font-size: 35px;
+    color: #0e317c;
+
+}
+.headerContact p{
+    font-size: 18px;
+}
+.typeContact{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.typeContact ul li{
+    list-style: none;
+}
+.imgContact img{
+    height: 650px;
+    width: 650px;
+}
+/*footer*/
+footer{
+    background-color: rgb(241, 242, 252);
+    display: flex;
+    justify-content: space-between;
+}
+.vaccination {
+    margin-left: 100px;
+    width: 150px;
+}
+.vaccination h3{
+    color: #0351F8;
+}
+.support{
+    display: flex;
+    margin-right: 150px;
+}
+.support ul li{
+    list-style: none;
+    align-content: space-between;
+    padding-bottom: 13px;
+}
+.headerSupport{
+    font-weight: bold;
+}
